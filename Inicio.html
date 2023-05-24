@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Vinilos</title>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body style="background-color:bisque">
+    <style>
+        /* Fondo Header */
+        .encabezado{
+            background-image:url(img/viniles.png);
+            background-size:cover;
+        }
+    
+    </style>
+
+    <!-- Header --> 
+
+    <header>
+        <div class="p-5 text-center bg-image" style="background-image: url(img/viniles.png);height: 210px;background-repeat:no-repeat;background-size:cover;margin-bottom:3%;">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                <h1 class="mb-3">Tienda de Vinilos</h1>
+                <hr>
+                <h4 class="mb-3">Discos Usados</h4>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+         
+                <div class="col">
+                    <a class="text-decoration-none" href="Inicio.html" style="color: white;font-size:20px;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='white'">
+                        Inicio</a>
+                </div>
+                <div class="col">
+                    <a class="text-decoration-none" href="Contacto.html" style="color: white;font-size:20px;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='white'">
+                        Contacto</a>
+                </div>
+                <div class="col">
+                    <a class="text-decoration-none" href="#" style="color: white;font-size:20px;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='white'">
+                        Envios</a>
+                </div>
+                <div class="col">
+
+                    <button id="cambiarColorBtn"  style="color: black;font-size:20px;" onMouseover="this.style.color='grey'" onMouseout="this.style.color='white'">Cambiar color de letras</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    
+    <!-- Inicio de sesión ; Carrito de Compras -->
+
+    <div>
+        <a href="Inicio_sesion.html"> <img src="img/usuario.png" alt="foto usuario" width="50px" style="float:right;margin-top:10px;margin-right: 4%"></a>
+        <a class="carritoaa" href="Carrito.html"><img src="img/carrito.png" alt="carrito" style="width:55px;float:right;margin:10px 2%" width="40px"></a>
+    </div>    
+
+    <!-- Contenido Vinilos -->
+
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <a href="fleetwood_mac.html" class="text-decoration-none">
+                        <figure>
+                            <img class="center-block" src="img/portada/fleetwoodmac.jpg" alt="fleetwoodmac" width="20%">
+                        </figure>
+                        <div class="text-center">
+                            <div class="info_discos">
+                                <h2>Fleetwood Mac</h2>
+                                <p>Rumours</p>
+                                <p class="precio">$15.000</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>    
+                <div class="col-3">
+                    <a href="supertramp_cotc.html" class="text-decoration-none">
+                        <figure>
+                            <img src="img/portada/supertramp_crime.jpg" alt="supertramp" width="20%" >
+                        </figure>
+                        <div class="info_discos">
+                            <h2>SuperTramp</h2>
+                            <p>Crime of the Century</p>
+                            <p class="precio">$15.000</p>
+                        </div>
+                    </a>    
+                </div>
+                <div class="col-3">
+                    <figure>
+                        <img src="img/portada/otto_live.jpg" alt="otto" width="20%">
+                    </figure>
+                    <div class="info_discos">
+                        <h2>Otto</h2>
+                        <p>Live in Audimax</p>
+                        <p class="precio">$15.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <figure>
+                        <img src="img/portada/triumvirat_spartacus.jpg" alt="otto" width="20%">
+                    </figure>
+                    <div class="info_discos">
+                        <h2>Triunvirat</h2>
+                        <p>Spartacus</p>
+                        <p class="precio">$15.000</p>
+                    </div>
+                </div> 
+                <div class="col-3">
+                    <figure>
+                        <img src="img/portada/war_galaxy.jpg" alt="otto" width="20%">
+                    </figure>
+                    <div class="info_discos">
+                        <h2>War</h2>
+                        <p>Galaxy</p>
+                        <p class="precio">$10.000</p>
+                    </div>
+                </div> 
+                <div class="col-3">
+                    <figure>
+                        <img src="img/portada/funkadelic_ujwy.jpg" alt="funkadelic" width="20%">
+                    </figure>
+                    <div class="info_discos">
+                        <h2>Funkadelic</h2>
+                        <p>Uncle Jam Wants You</p>
+                        <p class="precio">$15.000</p>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <figure>
+                        <img src="img/portada/parliament_pfet.jpeg" alt="parliament" width="20%">
+                    </figure>
+                    <div class="info_discos">
+                        <h2>Parliament</h2>
+                        <p>P. Funk Earth Tour</p>
+                        <p class="precio">$20.000</p>
+                    </div>
+                </div> 
+                <div class="col-3">
+                    <figure>
+                        <img src="img/Portada/hair.osr.jpg" alt="hair" width="20%">
+                    </figure>
+                    <div class="info_discos">
+                        <h2>Hair</h2>
+                        <p>Original Soundtrack Recording</p>
+                        <p class="precio">$10.000</p>
+                    </div>
+                </div> 
+                <div class="col-3">
+                    <figure>
+                        <img src="img/Portada/janhammer_oyeah.jpg" alt="jan_hammer" width="20%">
+                    </figure>
+                    <div class="info_discos">
+                        <h2>Jan Hammer</h2>
+                        <p>Oh, Yeah?</p>
+                        <p class="precio">$10.000</p>
+                    </div>
+                </div> 
+            </div>
+        </div> 
+        <br> <br>
+
+        <!-- Footer -->
+
+        <footer>
+            <div class="foot">
+                <div class="foot_info">
+                    <ul>
+                        <li>Nosotros</li>
+                        <li><a href="Contacto.html" style="text-decoration:none;color:white">Contacto</a></li>
+                        <li>Envios</li>
+                        <li>Ayuda</li>
+                        <li><img src="img/ig_logo.png" alt="ig" style="width:20px; float:left;margin-top:4px;margin-right:6px;">Instagram</li>
+                        <li><img src="img/fb_logo.png" alt="fb" style="width:25px; float:left;margin-top:2px;margin-right:3px;">Facebook</li>
+                    </ul>
+                </div>
+                <div class="foot_rights">
+                    <img src="img/logo.png" alt="logo" style="float:left;width:auto;padding-top:0.75%;">
+                    <p>© 2023 Tienda de Vinilos®</p>
+                    <p>Política de cookies</p>
+                    <p>Condiciones del servicio</p>
+                    <p>Política de privacidad</p>
+                </div>
+                
+            </div>
+
+        </footer>
+        <script src="js/scrip.js"></script>
+
+</body>
+</html>
